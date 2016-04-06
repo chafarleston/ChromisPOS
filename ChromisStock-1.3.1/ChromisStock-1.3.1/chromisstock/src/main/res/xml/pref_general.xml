@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="database_url"
+        android:title="@string/pref_title_database_url"
+        android:defaultValue="@string/pref_default_database_url"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="database_user"
+        android:title="@string/pref_title_database_user"
+        android:defaultValue="@string/pref_default_database_user"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="database_password"
+        android:title="@string/pref_title_database_password"
+        android:defaultValue="@string/pref_default_database_password"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <Preference android:title="@string/pref_test_connection"
+        android:key="test_connect"
+        android:summary=""/>
+
+    <EditTextPreference
+        android:key="chromis_user"
+        android:title="@string/pref_title_chromis_user"
+        android:defaultValue="@string/pref_default_chromis_user"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+
+    <ListPreference
+        android:key="location"
+        android:title="@string/pref_title_location"
+        android:defaultValue="@string/pref_default_location"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+
+</PreferenceScreen>

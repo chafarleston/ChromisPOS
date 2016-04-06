@@ -1,0 +1,26 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_database_url">Database URL</string>
+    <string name="pref_default_database_url">jdbc:mysql://192.168.1.1:3306/chromis</string>
+
+    <string name="pref_title_database_user">Database User</string>
+    <string name="pref_default_database_user">UserName</string>
+
+    <string name="pref_title_database_password">Database Password</string>
+    <string name="pref_default_database_password">Password</string>
+
+    <string name="pref_title_chromis_user">Chromis User</string>
+    <string name="pref_default_chromis_user">UserName</string>
+
+    <string name="pref_title_location">Location</string>
+    <string name="pref_default_location">0</string>
+
+    <string name="pref_test_connection">Test Connection</string>
+
+</resources>

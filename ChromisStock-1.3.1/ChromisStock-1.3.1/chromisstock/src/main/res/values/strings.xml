@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">ChromisPOS Stock</string>
+    <string name="title_product_detail">Product Detail</string>
+    <string name="SearchPrompt">Search</string>
+    <string name="label_productname">Name:</string>
+    <string name="label_reference">Ref:</string>
+    <string name="label_barcode">Code:</string>
+    <string name="label_instock">Stock:</string>
+    <string name="label_pricebuy">Buy:</string>
+    <string name="label_pricesell">Sell:</string>
+    <string name="label_productimage">Product Image</string>
+    <string name="label_minqty">Min:</string>
+    <string name="label_maxqty">Max:</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_new_product">New Product</string>
+    <string name="menu_fetch_products">Fetch Products</string>
+    <string name="menu_send_updates">Upload Changes</string>
+    <string name="menu_discard_updates">Reset Data</string>
+    <string name="menu_use_scanner">Scan Barcode</string>
+    <string name="menu_about">About Chromis Stock</string>
+    <string name="no_items">No Items to display</string>
+    <string name="no_match">No matches for </string>
+    <string name="fetching_data">Fetching Data...</string>
+
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="label_ok">OK</string>
+    <string name="label_cancel">Cancel</string>
+
+    <string name="dlg_connect_title">Testing Connection</string>
+    <string name="dlg_connect_message">This may take a long time.
+        Messages will be displayed showing progress</string>
+
+    <string name="dlg_reset_title">Reset Data</string>
+    <string name="dlg_reset_message">This will remove all data including any changes you have made.
+    You will need to re-fetch products after doing this.</string>
+
+    <string name="dlg_delrec_title">Delete Record</string>
+    <string name="dlg_delrec_message">This will delete the new record and any changes made to it.</string>
+
+    <string name="dlg_barcode_exists_title">Duplicate Barcode</string>
+    <string name="dlg_barcode_exists_message">This barcode is already in use, do you want to switch to the product using it?</string>
+
+    <string name="dlg_new_barcode_title">Barcode Not Recognised</string>
+    <string name="dlg_new_barcode_message">Unknown barcode, do you want to create a new product?</string>
+
+    <string name="dlg_install_uploader_title">"Uploader Not Found"</string>
+    <string name="dlg_install_uploader_message">This function requires the changes uploader. Would you like to install it?</string>
+
+    <string name="dbstatus_unknown">Database status unknown</string>
+    <string name="dbstatus_download_complete">Database download complete</string>
+    <string name="dbstatus_connection_ok">Database connection OK</string>
+    <string name="dbstatus_communication_error">Database communication error</string>
+    <string name="dbstatus_coomunicating">Communicating with database...</string>
+    <string name="label_adjuststock">+ / -</string>
+
+    <string name="changetype_none">No Change</string>
+    <string name="changetype_adjustvalue">Adjust by</string>
+    <string name="changetype_changevalue">Change to</string>
+    <string name="changetype_newvalue">New value</string>
+    <string name="changetype_newrecord">New Record</string>
+    <string name="label_increase_by">Increase by</string>
+    <string name="label_decrease_by">Decrease by</string>
+    <string name="label_set_value">Set New Value</string>
+
+    <string name="label_changes">Changes</string>
+    <string name="label_taxcat">Tax:</string>
+    <string name="label_category">Category:</string>
+
+    <string name="change_newproduct">New Product</string>
+    <string name="change_name">Name</string>
+    <string name="change_barcode">Barcode</string>
+    <string name="change_reference">Reference</string>
+    <string name="change_min">Minimum</string>
+    <string name="change_max">Maximum</string>
+    <string name="change_buy">Buy Price</string>
+    <string name="change_sell">Sell Price</string>
+    <string name="change_stock">Stock Level</string>
+    <string name="change_taxcat">Tax Category</string>
+    <string name="change_category">Category</string>
+    <string name="change_image">Product Image</string>
+
+    <string name="captured_image">New image</string>
+    <string name="title_activity_about">About Chromis Stock</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
